@@ -1,0 +1,12 @@
+{
+  "services/search-service.feature": {
+    "featureHash": "bc1c2057db9b11a8a3f24db993298a698a448c124d1f00ea3a9774e54b7d0a2c",
+    "approvedAt": "2026-10-28T04:24:05.988Z",
+    "implHash": "08cc67520b9d61cf1c5ae7932a974b2a701ed72f9558470e51796388ed88c14f",
+    "verifiedAt": "2026-10-28T04:24:05.992Z"
+  },
+  "services/consulta-de-servicios-activos.feature": {
+    "featureHash": "756de9f35ebe0a03eb7f270b45b21c14fb652b3aab1324a28f271b86f4bc628b",
+    "approvedAt": "2026-10-28T04:24:05.770Z"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Orquestador E2E · LAFISErvicios",
+  "description": "Orquestador de pruebas E2E con generación de features, steps y ejecución de suites para LAFISErvicios.",
+  "requestFramePermissions": [],
+  "capabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

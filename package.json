@@ -3,9 +3,12 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "concurrently -k \"node server/server.js\" \"vite\"",
+    "dev": "node server/server.js",
     "build": "vite build",
-    "start": "node server/server.js"
+    "lint": "vite build",
+    "test": "node --test test/**/*.test.js",
+    "check": "node --test test/**/*.test.js && vite build",
+    "start": "NODE_ENV=production node server/server.js"
   },
   "dependencies": {
     "express": "^5.1.0",
@@ -14,7 +17,6 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.4",
-    "concurrently": "^9.1.0",
     "vite": "^5.4.11"
   }
 }

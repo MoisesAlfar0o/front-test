@@ -1,19 +1,31 @@
 {
-  "agent": "claude",
+  "agent": "fake",
+  "timeoutMs": 120000,
   "agents": {
+    "fake": {
+      "cmd": "node",
+      "args": [
+        "server/fake-agent.js",
+        "{prompt}"
+      ],
+      "description": "Agente simulado para desarrollo, pruebas y verificación local sin dependencias externas"
+    },
     "claude": {
       "cmd": "claude",
       "args": [
         "-p",
-        "{prompt}"
-      ]
+        "{prompt}",
+        "--dangerously-skip-permissions"
+      ],
+      "description": "Claude Code CLI con ejecución no interactiva y permisos automáticos"
     },
     "cursor": {
       "cmd": "cursor-agent",
       "args": [
         "-p",
         "{prompt}"
-      ]
+      ],
+      "description": "Cursor Agent CLI en modo no interactivo"
     }
   }
 }
