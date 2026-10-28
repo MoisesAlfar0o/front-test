@@ -1,0 +1,20 @@
+{
+  "name": "e2e-orchestrator",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -k \"node server/server.js\" \"vite\"",
+    "build": "vite build",
+    "start": "node server/server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^9.1.0",
+    "vite": "^5.4.11"
+  }
+}

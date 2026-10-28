@@ -1,0 +1,15 @@
+[
+  {
+    "id": "mvrkvfzc4nta",
+    "type": "draft",
+    "payload": {
+      "area": "settlements",
+      "where": "Servicios",
+      "what": "Busco \"TIGO\"",
+      "expect": "Solo veo servicios cuyo nombre son \"TIGO\""
+    },
+    "status": "FAILED",
+    "createdAt": "2026-10-28T03:51:48.648Z",
+    "finishedAt": "2026-10-28T03:51:48.785Z"
+  }
+]

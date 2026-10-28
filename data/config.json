@@ -1,0 +1,19 @@
+{
+  "agent": "claude",
+  "agents": {
+    "claude": {
+      "cmd": "claude",
+      "args": [
+        "-p",
+        "{prompt}"
+      ]
+    },
+    "cursor": {
+      "cmd": "cursor-agent",
+      "args": [
+        "-p",
+        "{prompt}"
+      ]
+    }
+  }
+}
